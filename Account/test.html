@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Agritech Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom Styles */
+    .banner {
+      background-color: #f9f9f9;
+      padding: 50px 0;
+      position: relative;
+    }
+    .banner-text {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .highlight-text {
+      color: #FFA500; /* Orange color */
+    }
+    .circle-button {
+      background-color: #FF4500;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      text-align: center;
+      font-size: 1rem;
+      position: absolute;
+      bottom: -30px;
+      right: 10%;
+    }
+    .rounded-image {
+      border-radius: 50%;
+    }
+    .sponsors {
+      background-color: #f2f2f2;
+      padding: 30px 0;
+    }
+    .sponsors img {
+      max-height: 50px;
+      opacity: 0.6;
+      margin: 0 15px;
+    }
+    .info-section {
+      padding: 40px 0;
+    }
+    .info-text {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .icon-circles {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .icon-circle {
+      background-color: #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-light py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#" class="navbar-brand"><img src="logo.png" alt="Logo" height="40"></a>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link">Farmers Fund</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Shopping For Business</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Become a Partner</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="btn btn-outline-dark">Contact</a>
+    </div>
+  </header>
+
+  <!-- Main Banner -->
+  <section class="banner text-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-left">
+          <h1 class="banner-text">Leading <span class="highlight-text">Agritech And E-Groceries</span></h1>
+          <p class="mt-4 text-muted">MSME farmers felt helped and Rp.470 billion of funds were channeled around Indonesia.</p>
+          <div class="circle-button">Let's Farming</div>
+        </div>
+        <div class="col-md-6">
+          <img src="side-image.jpg" alt="Agriculture Image" class="img-fluid rounded-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors Section -->
+  <section class="sponsors text-center">
+    <div class="container">
+      <h2 class="text-dark mb-4">Supported By Over 16,000 Investors</h2>
+      <div class="d-flex justify-content-center">
+        <img src="sponsor1.png" alt="Sponsor">
+        <img src="sponsor2.png" alt="Sponsor">
+        <img src="sponsor3.png" alt="Sponsor">
+        <!-- Add more sponsor logos as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="info-section text-center">
+    <div class="container">
+      <h2 class="info-text">Growing Sense Of Indonesian Farmers</h2>
+      <div class="icon-circles mt-5">
+        <div class="icon-circle">
+          <img src="icon1.png" alt="Icon" width="50">
+        </div>
+        <div class="icon-circle">
+          <img src="icon2.png" alt="Icon" width="50">
+        </div>
+        <div class="icon-circle">
+          <img src="icon3.png" alt="Icon" width="50">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
